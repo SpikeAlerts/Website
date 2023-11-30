@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <span> <a href="../index" style = "color: GreenYellow">Home</a> ~ <a href="./about" style = "color: GreenYellow">About</a> ~ <a href="./projects" style = "color: GreenYellow">Projects</a> ~ <a href="./resources" style = "color: GreenYellow">Resources</a> ~ <a href="./contact" style = "color: GreenYellow">Contact</a> </span>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"> <a href="../index">Home</a> ~ <a href="./about">About</a> ~ <a href="./projects">Projects</a> ~ <a href="./resources">Resources</a> ~ <a href="./contact">Contact</a> </span>
+        <span class="site-footer-credits"> <a href="{{ site.github.repository_url }}">Website</a> maintained by <a href="{{ site.github.owner_url }}"">{{ site.github.owner_name }}</a></span>
+      </footer>
+    </main>
+  </body>
+</html>
+
+<!-- https://www.eliascarter.ca/2021/09/11/customizing-jekyll-header-and-footer.html -->
