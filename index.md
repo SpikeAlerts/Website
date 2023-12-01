@@ -6,11 +6,17 @@ description: This is the SpikeAlerts Website
 
 <h1 class="project-name" style = "color:white">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 
-<img src="./figs/ExampleHazardIndex.png" alt="Water bodies in Twin Cities on coffee mug." class="responsive" width=450/> <!--width=500-->
+<img src="./figs/ExampleHazardIndex.png" alt="Example pm2.5 Hazard Index" class="responsive" width=450/> <!--width=500-->
+
+<div class="button"><a href="https://redcap.ahc.umn.edu/surveys/?s=YNHFFJRRADMT7HLD"><button> Sign Up Here</button></a> &nbsp;
+ <a href="https://app.smartsheet.com/b/form/45e0e547ab9046d3aecbdfd9f73498a7"><button> Report to Minneapolis </button></a>&nbsp;
+  <a href="https://netweb.pca.state.mn.us/private/CitizenComplaints.aspx?RequestedPage=ComplaintForm&task=ComplaintEntryTask"><button> Report to MPCA </button></a>
+</div>
+
 
 <h2 class="project-tagline" style = "color:white">{{ page.description }} </h2>
 
-<span> <a href="./index" style = "color: GreenYellow">Home</a> ~ <a href="./pages/about" style = "color: GreenYellow">About</a> ~ <a href="./pages/projects" style = "color: GreenYellow">Projects</a> ~ <a href="./pages/resources" style = "color: GreenYellow">Resources</a> ~ <a href="./pages/contact" style = "color: GreenYellow">Contact</a> </span>
+<span> <a href="./index" style = "color: GreenYellow">Home</a> ~ <a href="./pages/about" style = "color: GreenYellow">About</a> ~ <a href="./pages/FAQs" style = "color: GreenYellow">FAQs</a> ~ <a href="./pages/resources" style = "color: GreenYellow">Resources</a> ~ <a href="./pages/contact" style = "color: GreenYellow">Contact</a> </span>
 
 <hr>
 

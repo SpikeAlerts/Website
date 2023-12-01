@@ -1,4 +1,4 @@
-# Website
-SpikeAlerts Website
+# [Website](https://SpikeAlerts.github.io/Website)
 
-See it [here](https://SpikeAlerts.github.io/Website)
+A website for the SpikeAlerts Collective.
+
