@@ -5,7 +5,7 @@ title: About
 
 # Hello!
 
-This is an effort to make a text alert system for Air Quality Spikes in Minneapolis.
+We are a collective working to make a text alert system for Air Quality "Spikes" in Minneapolis.
 
 ## Background 
 
