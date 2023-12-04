@@ -23,7 +23,7 @@ We believe clean air is a human right. We believe communities deserve to know ex
 
 ## Functionality  
 
-Users who want to receive spike alerts can fill out our [Survey](https://redcap.ahc.umn.edu/surveys/?s=YNHFFJRRADMT7HLD) and have their phone number and location of interest stored in a secure [REDCap](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764586/) database hosted by the University of Minnesota. It’s likely most users will enter their home, although schools, work, a favorite park, or any other location would make sense. If anyone wants multiple locations, please fill out the survey twice (but please .
+Users who want to receive spike alerts can fill out our survey and have their phone number and location of interest stored in a secure [REDCap](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764586/) database hosted by the University of Minnesota. It’s likely most users will enter their home, although schools, work, a favorite park, or any other location would make sense. If anyone wants multiple locations, please fill out the survey twice (but please .
 
 The program queries the PurpleAir API and searches for spikes above a threshold ([35 micrograms/meter^3](https://www.epa.gov/pm-pollution/national-ambient-air-quality-standards-naaqs-pm) is the current EPA Standard for PM2.5). The value is a variable that can easily be changed/adjusted. When the system detects a spike, it sends a text to all subscribers within a certain distance of the monitor if they don't already have an active alert. The text links to the sensor on the PurpleAir Webmap.
 
