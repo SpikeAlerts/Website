@@ -18,7 +18,7 @@ This is tough to define, and we hope to get a better idea with your help!
 
 <br><br>
 
-Currently, we are sending out alerts anytime a <a href="https://www2.purpleair.com/">PurpleAir</a> sensor reads Particulate Matter 2.5 (PM2.5) levels over the <a href="https://www.epa.gov/pm-pollution/national-ambient-air-quality-standards-naaqs-pm" target="_blank">24-hour National Ambient Air Quality Standard</a> (NAAQS) within 1 kilometer of your designated location of interest.
+Currently, we are sending out alerts when a <a href="https://www2.purpleair.com/">PurpleAir</a> sensor reads 10-minute average Particulate Matter 2.5 (PM2.5) levels over the <a href="https://www.epa.gov/pm-pollution/national-ambient-air-quality-standards-naaqs-pm" target="_blank">24-hour National Ambient Air Quality Standard</a> (NAAQS) within 1 kilometer of your designated location of interest.
 
 
 <hr>
@@ -57,11 +57,25 @@ All sign up information and reports are stored in a secure <a href="https://www.
 
 <br><br>
 
-We do not link locations/phone numbers to community scientist reports - only sensors in the area.
+Community scientist reports are anonymous - we have no way to link user locations and phone numbers to reports only the sensors in the area and time of the event.
 
 <br><br> 
 
-We do not share reports with any org/government agency without your consent.
+We will not share reports with any org/government agency without your consent!
+
+<hr>
+
+</details>
+
+<details>
+<summary><h2>How do I unsubscribe?</h2>
+</summary>
+
+At anytime you can reply to our phone number with a text saying "STOP", and we will delete your phone number and all messaging information from our SMS service (<a href="https://en.wikipedia.org/wiki/Twilio" target="_blank">Twilio</a>).
+
+<br><br>
+
+To resubscribe, reply to the same number with a text saying "START" and submit a new sign up form.
 
 <hr>
 
