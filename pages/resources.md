@@ -55,6 +55,6 @@ title: Resources
 
 [Earth Defenders Toolkit](https://www.earthdefenderstoolkit.com/)
 
-[On Community Geography Praxis](https://experts.umn.edu/en/publications/mapping-a-path-towards-equity-reflections-on-a-co-creative-commun)
+[On Community Geography Praxis](https://sites.google.com/view/umnpraxislab/publications-lab-notes/articles/mapping-a-path-towards-equity)
 
 [Geographic Data Science in Python (Textbook)](https://geographicdata.science/book/intro.html)

@@ -16,7 +16,7 @@ description: This is the SpikeAlerts Website
 
 <h2 class="project-tagline" style = "color:white">{{ page.description }} </h2>
 
-<span> <a href="./index" style = "color: GreenYellow">Home</a> ~ <a href="./pages/about" style = "color: GreenYellow">About</a> ~ <a href="./pages/FAQs" style = "color: GreenYellow">FAQs</a> ~ <a href="./pages/resources" style = "color: GreenYellow">Resources</a> ~ <a href="./pages/contact" style = "color: GreenYellow">Contact</a> </span>
+<span> <a href="./index" style = "color: GreenYellow">Home</a> ~ <a href="./pages/FAQs" style = "color: GreenYellow">FAQs</a> ~ <a href="./pages/about" style = "color: GreenYellow">About</a> ~ <a href="./pages/resources" style = "color: GreenYellow">Resources</a> ~ <a href="./pages/contact" style = "color: GreenYellow">Contact</a> </span>
 
 <hr>
 
