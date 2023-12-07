@@ -50,25 +50,39 @@ The American Heart Association (AHA) has established a causal link between these
 
 <!-- Example Question -->
 <details>
-<summary><h2>What happens to this data?</h2>
+<summary><h2>What happens to my observations?</h2>
 </summary>
 
-All sign up information and reports are stored in a secure <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764586/" target="_blank">REDCap</a> database hosted by the University of Minnesota. 
+Community scientist comments will be used to help researchers better understand air quality at the community level. We will not share your reports with any org or government agency without your consent.
 
-<br><br>
+<hr>
 
-Community scientist reports are anonymous - we have no way to link user locations and phone numbers to reports only the sensors in the area and time of the event.
+</details>
 
-<br><br> 
+<!-- Example Question -->
 
-We will not share reports with any org/government agency without your consent!
+<details>
+<summary><h2>Are reports anonymous?</h2>
+</summary>
+
+The app's database intentionally "unrelates" user information when archiving reports. Reports record the time of event and nearby sensors but not the user's location/phone number.
 
 <hr>
 
 </details>
 
 <details>
-<summary><h2>How do I unsubscribe?</h2>
+<summary><h2>Phone Numbers</h2>
+</summary>
+
+Phone numbers are stored in a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764586/" target="_blank">REDCap</a> database hosted by the University of Minnesota. Our SMS service currently is <a href="https://www.twilio.com/en-us/legal/privacy#data-about-our-customers-end-users" target="_blank">Twilio</a> which keeps a log of messages and phone numbers.
+
+<hr>
+
+</details>
+
+<details>
+<summary><h2>How do I delete my information?</h2>
 </summary>
 
 At anytime you can reply to our phone number with a text saying "STOP", and we will delete your phone number and all messaging information from our SMS service (<a href="https://en.wikipedia.org/wiki/Twilio" target="_blank">Twilio</a>).
