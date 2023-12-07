@@ -5,7 +5,9 @@ title: About
 
 # Hello!
 
-We are a collective working to make a text alert system for Air Quality "Spikes" in Minneapolis.
+We are a collective working to make a text alert and reporting system for Air Quality events in Minneapolis. 
+
+All code will be free and open-sourced (MIT License). 
 
 ## Background 
 
