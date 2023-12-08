@@ -50,14 +50,18 @@ The American Heart Association (AHA) has established a causal link between these
 
 <!-- Example Question -->
 <details>
-<summary><h2>What happens to observations?</h2>
+<summary><h2>What happens to my report?</h2>
 </summary>
 
-Community scientist comments will be used to help researchers better understand air quality at the community level. 
+You can opt-in to report to Minneapolis Health Department (MHD), the Minnesota Pollution Control Agency (MPCA), and/or submit your comment anonymously as a community scientist for air quality research!
+
+<br><br> 
+
+We will not share your report information with any org or government agency without your consent.
 
 <br><br>
 
-We will not share your reports with any org or government agency without your consent.
+Reports are stored in a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764586/" target="_blank">REDCap</a> database hosted by the University of Minnesota.
 
 <hr>
 
@@ -90,7 +94,7 @@ Our current SMS service is <a href="https://www.twilio.com/en-us/legal/privacy#d
 </details>
 
 <details>
-<summary><h2>How to delete information?</h2>
+<summary><h2>How to delete my information?</h2>
 </summary>
 
 At anytime you can reply to our phone number with a text saying "STOP", and we will delete your phone number and all messaging information from our SMS service (<a href="https://en.wikipedia.org/wiki/Twilio" target="_blank">Twilio</a>).
