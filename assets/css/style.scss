@@ -42,6 +42,7 @@ details[open] > summary {
 // Header formatting
 
 $header-bg-color: #21C685 !default;
+$header-bg-color-secondary: #89116d !default;
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
