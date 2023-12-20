@@ -46,6 +46,36 @@ The American Heart Association (AHA) has established a causal link between these
 
 <hr><hr><hr>
 
+<h1><b>Functionality</b></h1>
+
+<!-- Example Question -->
+<details>
+<summary><h2>Why haven't I received an alert, yet?</h2>
+</summary>
+
+There is a chance that there are no air monitors in your area!
+
+<br><br>
+
+If you or someone you know would be interested in hosting a sensor here is a <a href="https://www.minneapolismn.gov/government/programs-initiatives/environmental-programs/air-quality/host-air-sensor/" target="_blank">link</a> to request one from the City.
+
+<br><br>
+
+In the meantime, we'll work on letting you know about city-wide air quality events.
+
+<br><br>
+
+<center>
+<h2>Current SpikeAlerts Coverage</h2>
+<img src="../figs/SpikeAlerts_Coverage.png" alt="SpikeAlerts_Coverage.png" class="responsive" width = 400/>
+</center>
+
+<hr>
+
+</details>
+
+<hr><hr><hr>
+
 <h1><b>Privacy</b></h1>
 
 <!-- Example Question -->
@@ -53,7 +83,7 @@ The American Heart Association (AHA) has established a causal link between these
 <summary><h2>What happens to my report?</h2>
 </summary>
 
-You can opt-in to report to Minneapolis Health Department (MHD), the Minnesota Pollution Control Agency (MPCA), and/or submit your comment anonymously as a community scientist for air quality research!
+You can opt-in to report to a community organization, Minneapolis Health Department (MHD), the Minnesota Pollution Control Agency (MPCA), and/or submit your comment anonymously as a community scientist for air quality research!
 
 <br><br> 
 
