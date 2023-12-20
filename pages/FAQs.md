@@ -50,14 +50,44 @@ The American Heart Association (AHA) has established a causal link between these
 
 <!-- Example Question -->
 <details>
-<summary><h2>Why haven't I received an alert, yet?</h2>
+<summary><h2>How do I unsubscribe?</h2>
 </summary>
 
-There is a chance that there are no air monitors in your area!
+At anytime you can reply to our phone number with a text saying "STOP", and we will delete your phone number and all messaging information from our SMS service (<a href="https://en.wikipedia.org/wiki/Twilio" target="_blank">Twilio</a>).
 
 <br><br>
 
-If you or someone you know would be interested in hosting a sensor here is a <a href="https://www.minneapolismn.gov/government/programs-initiatives/environmental-programs/air-quality/host-air-sensor/" target="_blank">link</a> to request one from the City.
+To resubscribe, reply to the same number with a text saying "START" and submit a new sign up form.
+
+<hr>
+
+</details>
+
+<!-- Example Question -->
+<details>
+<summary><h2>Never got a message?</h2>
+</summary>
+
+There is a chance that the phone number was entered incorrectly. Also, we are unable to message landlines.
+
+<br><br>
+
+Definitely <a href="./contact">contact us</a> if you think there's been a mistake! 
+
+<hr>
+
+</details>
+
+<!-- Example Question -->
+<details>
+<summary><h2>No alerts?</h2>
+</summary>
+
+Most people should get an alert within a week or so. There is a chance that there are no air monitors in your area!
+
+<br><br>
+
+If you or someone you know would be interested in hosting a sensor you can request one from the City <a href="https://www.minneapolismn.gov/government/programs-initiatives/environmental-programs/air-quality/host-air-sensor/" target="_blank">here</a>.
 
 <br><br>
 
