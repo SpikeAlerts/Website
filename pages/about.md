@@ -9,6 +9,12 @@ We are a collective working to make a text alert and reporting system for Air Qu
 
 All code will be free and open-sourced (MIT License). 
 
+## [Updates](./updates)
+
+---
+---
+---
+
 ## Background 
 
 When Canadian wildfires blanketed US cities in the summer of 2023, air quality rose to the forefront of public concern across the country. In Minneapolis, the fight for the East Phillips Urban Farm also raised air quality as an environmental justice issue in the public consciousness. Asthma and other health issues are clearly higher in Minneapolis neighborhoods which were [redlined](https://legacy.yourwebedition.com/stories/a-city-divided-0) and have more polluting facilities, particularly in North Minneapolis, a majority black neighborhood, and the Phillips and Cedar-Riverside neighborhoods in south Minneapolis, which have high Indigenous and immigrant populations. 
