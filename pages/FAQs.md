@@ -3,9 +3,9 @@ layout: page
 title: FAQs
 ---
 
-<!-- For Collapible cell formatting - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details -->
-
+## Check [**here**](./updates) for regular updates! 
 <h1> <small><small><small><i>(Click to Expand an answer)</i></small></small></small></h1>
+<!-- For Collapible cell formatting - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details -->
 
 <h1><b>Definitions</b></h1>
 
