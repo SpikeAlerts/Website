@@ -9,8 +9,6 @@ We are a collective working to make a text alert and reporting system for Air Qu
 
 All code will be free and open-sourced (MIT License). 
 
-## [Updates](./updates)
-
 ---
 ---
 ---
