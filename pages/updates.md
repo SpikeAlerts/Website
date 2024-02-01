@@ -7,6 +7,11 @@ title: Updates
 
 We will aim to update this weekly on Wednesdays! 
 
+## 1-31-2024
+
+Paused overnight alerts and removed "SpikeAlert" from all messages. Significant work on code organization/modulation [Repository](https://github.com/SpikeAlerts/SpikeAlerts) - the new version should be ready for testing mid-to-late February. 
+
+
 ## 1-24-2024
 
 Version 2.0 is in progress! In March we will message when it's ready with a new sign-up form and then terminate version 1.
