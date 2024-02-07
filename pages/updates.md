@@ -7,9 +7,15 @@ title: Updates
 
 We will aim to update this weekly on Wednesdays! 
 
+## 2-7-2024
+
+The base (updating sensors & alerts) of [version 2.0](https://github.com/SpikeAlerts/SpikeAlerts)) runs smooth. We've also made an informational brochure for distributing at community events, schools, etc.
+
+Next week we'll start working on updating the website, adding the Points of Interest extension (POIs formerly "Sign Up Information"), and developing flask apps (API and webmap).
+
 ## 1-31-2024
 
-Paused overnight alerts and removed "SpikeAlert" from all messages. Significant work on code organization/modulation [Repository](https://github.com/SpikeAlerts/SpikeAlerts) - the new version should be ready for testing mid-to-late February. 
+Paused overnight alerts and removed "SpikeAlert" from all messages. Significant work on code organization/modulation ([Repository](https://github.com/SpikeAlerts/SpikeAlerts)) - the new version should be ready for testing mid-to-late February. 
 
 
 ## 1-24-2024
