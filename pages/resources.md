@@ -9,7 +9,7 @@ title: Resources
 
 [SpikeAlerts Archive](https://drive.google.com/drive/folders/1u0hirGJlINDi_Ych8aH5ocUGfqtt2SID?usp=drive_link)
 
-[SpikeMovies Archive](https://drive.google.com/drive/folders/1CIWqvFMiSmwhlbjrkx48uA8NiLSLtl4-?usp=drive_link)
+[SpikeMovies (Youtube)](https://www.youtube.com/@SpikeAlerts) - Please reach out if you would like the download link!
 
 ---
 ---
