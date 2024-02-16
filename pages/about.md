@@ -53,9 +53,15 @@ Mateo Frumholtz
 
 Doug Carmody
 
+## Sensor Maintenance & Counsel
+
+Jenni Lansing
+
+Lucy Shapiro
+
 ## Other Contributors 
 
-Connor Stratton, Urszula Parfieniuk, Michael Wilson, Nazir Khan, Jenni Lansing, Lucy Shapiro, Alice Froehlich, Megan Greenberg, Mary Marek-Spartz, Kerry Wang, Daniel Furata, Eamonn Fetherston, Jake Ford
+Connor Stratton, Urszula Parfieniuk, Michael Wilson, Nazir Khan, Alice Froehlich, Megan Greenberg, Mary Marek-Spartz, Kerry Wang, Daniel Furata, Eamonn Fetherston, Jake Ford
 
 Thank you for organizing, discussion, feedback, research, sensor installation & maintenance...
 
