@@ -7,6 +7,14 @@ title: Updates
 
 We will aim to update this weekly on Wednesdays! 
 
+## 2-29-2024
+
+Apologies for the delay in writing an update. Last week battling illness, this week playing catch up.
+
+We're getting very close to testing the new version! The Users & Notifications extension of the project is quickly falling into place. 
+
+Next week we'll be intensively working on the new website and organizing a focus group for testing the Minneapolis instance of SpikeAlerts2.0! 
+
 ## 2-14-2024
 
 [Version 2.0](https://github.com/SpikeAlerts/SpikeAlerts) has the full workflow public on Github. A little more documentation/testing then we will fork this and begin developing the Minneapolis instance of SpikeAlerts (SpikeAlerts_Mpls)! This is where we can start the work to include all of the user feedback we've received!
