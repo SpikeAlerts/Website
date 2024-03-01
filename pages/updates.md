@@ -11,7 +11,9 @@ We will aim to update this weekly on Wednesdays!
 
 Apologies for the delay in writing an update. Last week battling illness, this week playing catch up.
 
-We're getting very close to testing the new version! The Users & Notifications extension of the project is quickly falling into place. 
+REDCap is undergoing a big update this weekend, so our messaging services will be down from Friday to Monday. We'll still be watching the sensors, though!
+
+In other news, we're getting very close to testing the new version! The Users & Notifications extension of the project is quickly falling into place. 
 
 Next week we'll be intensively working on the new website and organizing a focus group for testing the Minneapolis instance of SpikeAlerts2.0! 
 
@@ -27,7 +29,7 @@ Lastly, the lead developers discussed serving our own website for SpikeAlerts_Mp
 
 The base of [version 2.0](https://github.com/SpikeAlerts/SpikeAlerts) runs smooth (up to updating alerts). We've also made an informational brochure for distributing at community events, schools, etc.
 
-Next week we'll start working on updating the website, adding the Points of Interest (POIs formerly "Sign Up Information") & Reports, and developing flask apps (API and webmap).
+Next week we'll start working on updating the website, adding the Places of Interest (POIs formerly "Sign Up Information") & Reports, and developing flask apps (API and webmap).
 
 ## 1-31-2024
 
