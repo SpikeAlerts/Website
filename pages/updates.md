@@ -5,7 +5,24 @@ title: Updates
 
 # Updates
 
-We will aim to update this weekly on Wednesdays! 
+We will aim to update this weekly on Wednesdays!
+
+## 3-8-2024
+
+It's been an exciting week! 
+
+The new website is coming together complete with our own webmaps (see example below) while the "Users & Notifications" extension of SpikeAlerts has been tested. This extension was pulled into the [Minneapolis instance](https://github.com/SpikeAlerts/SpikeAlerts_Mpls) for implementing SMS Messaging and REDCap scripts. 
+
+A new sign-up form should be finished today and sent out to a focus group. Trial run to begin next week!
+
+<center>
+<h4> <b>Realtime Example Map with Modified Health Benchmarks</b> </h4>
+    <i style="font-size:12px">Health benchmarks were shrunk by a factor of 10 to illustrate a worse event - air quality has been pretty good this week!</i>
+    <br><br>
+    <div class="content">
+            <embed type="text/html" src="../figs/Realtime_Example_Map_modified_thresholds.html" width="500" height="700"/>
+    </div>
+</center>
 
 ## 2-29-2024
 
