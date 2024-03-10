@@ -16,11 +16,10 @@ The new website is coming together complete with our own webmaps (see example be
 A new sign-up form should be finished today and sent out to a focus group. Trial run to begin next week!
 
 <center>
-<h4> <b>Realtime Example Map with Modified Health Benchmarks</b> </h4>
-    <i style="font-size:12px">Health benchmarks were shrunk by a factor of 10 to illustrate a worse event - air quality has been pretty good this week!</i>
+<h4> <b>Realtime Webmap Snapshot</b> </h4>
     <br><br>
     <div class="content">
-            <embed type="text/html" src="../figs/Realtime_Example_Map_modified_thresholds.html" width="500" height="700"/>
+            <embed type="text/html" src="../figs/example_webmap.html" width="500" height="700"/>
     </div>
 </center>
 

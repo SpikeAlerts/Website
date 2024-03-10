@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ac085c73f852ae23dc8687f0d55df1a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ac085c73f852ae23dc8687f0d55df1a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ac085c73f852ae23dc8687f0d55df1a6 = L.map(
+                "map_ac085c73f852ae23dc8687f0d55df1a6",
+                {
+                    center: [44.986656, -93.258133],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+            function objects_in_front() {
+                    feature_group_6d3e9c67b7830c06e7741a83816290e9.bringToFront();
+                    feature_group_53fd9b4330a149dcc178f3313ed5022a.bringToFront();
+            };
+            map_ac085c73f852ae23dc8687f0d55df1a6.on("overlayadd", objects_in_front);
+            $(document).ready(objects_in_front);
+
+        
+    
+            var tile_layer_1c11d0c23ac401fbd095c278097fbdd5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1c11d0c23ac401fbd095c278097fbdd5.addTo(map_ac085c73f852ae23dc8687f0d55df1a6);
+        
+    
+            var feature_group_6d3e9c67b7830c06e7741a83816290e9 = L.featureGroup(
+                {}
+            );
+        
+    
+            var rectangle_5262d6fdb5eea43a95891a225a758b45 = L.rectangle(
+                [[44.8896883413448, -93.3303753775222], [45.0521464662874, -93.1930625073825]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6d3e9c67b7830c06e7741a83816290e9);
+        
+    
+            feature_group_6d3e9c67b7830c06e7741a83816290e9.addTo(map_ac085c73f852ae23dc8687f0d55df1a6);
+        
+    
+            var feature_group_53fd9b4330a149dcc178f3313ed5022a = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_94c0fe8959fcd7cf952d8272d9009362 = L.circle(
+                [44.987465, -93.25782],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_ba216337b54b3c16d727e05b9c5e940f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_500d5a8553a2123e16f4d22de7ba89b8 = $(`<div id="html_500d5a8553a2123e16f4d22de7ba89b8" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 18             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_ba216337b54b3c16d727e05b9c5e940f.setContent(html_500d5a8553a2123e16f4d22de7ba89b8);
+            
+        
+
+        circle_94c0fe8959fcd7cf952d8272d9009362.bindPopup(popup_ba216337b54b3c16d727e05b9c5e940f)
+        ;
+
+        
+    
+    
+            var circle_7e51fea4e7516b398ad5fbe44138d612 = L.circle(
+                [44.965744, -93.285416],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_6492d6cd3e11f3eed22aa0fde7937099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab0e4e869e17ac9fbd5493e98d0e37c0 = $(`<div id="html_ab0e4e869e17ac9fbd5493e98d0e37c0" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.0</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 12             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_6492d6cd3e11f3eed22aa0fde7937099.setContent(html_ab0e4e869e17ac9fbd5493e98d0e37c0);
+            
+        
+
+        circle_7e51fea4e7516b398ad5fbe44138d612.bindPopup(popup_6492d6cd3e11f3eed22aa0fde7937099)
+        ;
+
+        
+    
+    
+            var circle_4cea225bc3152e5f7008c2c4dcf6d46e = L.circle(
+                [44.953075, -93.31713],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fbfc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_d8b9cba82a7757d7dcf57611b634422d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f09ce2fe8b0885b1f9aefdd1d65ad5e1 = $(`<div id="html_f09ce2fe8b0885b1f9aefdd1d65ad5e1" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f6fbfc;border-top: 25px solid #f6fbfc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.4</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 30             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_d8b9cba82a7757d7dcf57611b634422d.setContent(html_f09ce2fe8b0885b1f9aefdd1d65ad5e1);
+            
+        
+
+        circle_4cea225bc3152e5f7008c2c4dcf6d46e.bindPopup(popup_d8b9cba82a7757d7dcf57611b634422d)
+        ;
+
+        
+    
+    
+            var circle_b68cc0aadbe4b19c04323aaf2151038e = L.circle(
+                [44.95735, -93.24736],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1f7fa", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_f30d68df6b962c886978556150aa014f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0295cd853a1842eb07d58adad405c748 = $(`<div id="html_0295cd853a1842eb07d58adad405c748" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f1f7fa;border-top: 25px solid #f1f7fa;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">5.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 75             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_f30d68df6b962c886978556150aa014f.setContent(html_0295cd853a1842eb07d58adad405c748);
+            
+        
+
+        circle_b68cc0aadbe4b19c04323aaf2151038e.bindPopup(popup_f30d68df6b962c886978556150aa014f)
+        ;
+
+        
+    
+    
+            var circle_8e96721c25d82d4b4b94c9d93572c1c3 = L.circle(
+                [44.937733, -93.24356],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_f7f14af559a130e130f4086647a9daff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a38d23412b68c2e1ff255035c91c2a42 = $(`<div id="html_a38d23412b68c2e1ff255035c91c2a42" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.0</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 21             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_f7f14af559a130e130f4086647a9daff.setContent(html_a38d23412b68c2e1ff255035c91c2a42);
+            
+        
+
+        circle_8e96721c25d82d4b4b94c9d93572c1c3.bindPopup(popup_f7f14af559a130e130f4086647a9daff)
+        ;
+
+        
+    
+    
+            var circle_0abdfc5e53f742880e819b2a00058aa3 = L.circle(
+                [44.95194, -93.263916],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_92b29f1e3008b0e779dfbc28dbb9bc25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5a88cddd4f7cc17be44c2e266319b44 = $(`<div id="html_c5a88cddd4f7cc17be44c2e266319b44" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 23             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_92b29f1e3008b0e779dfbc28dbb9bc25.setContent(html_c5a88cddd4f7cc17be44c2e266319b44);
+            
+        
+
+        circle_0abdfc5e53f742880e819b2a00058aa3.bindPopup(popup_92b29f1e3008b0e779dfbc28dbb9bc25)
+        ;
+
+        
+    
+    
+            var circle_199bc6ca17308494dd89f9bb6c07dcc4 = L.circle(
+                [44.99631, -93.29565],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f2f8fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_0058137db524c63a9a4a395775aeb397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2cbd11f8209d78e5e67fc8302e921df = $(`<div id="html_c2cbd11f8209d78e5e67fc8302e921df" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f2f8fb;border-top: 25px solid #f2f8fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">4.4</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 50             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_0058137db524c63a9a4a395775aeb397.setContent(html_c2cbd11f8209d78e5e67fc8302e921df);
+            
+        
+
+        circle_199bc6ca17308494dd89f9bb6c07dcc4.bindPopup(popup_0058137db524c63a9a4a395775aeb397)
+        ;
+
+        
+    
+    
+            var circle_da5a59764fe8815598c462d1b3184de5 = L.circle(
+                [44.955555, -93.254974],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_b939f3a76582b075bdba2196d4c069f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2406f7ab52f6eb315d519d801a979a73 = $(`<div id="html_2406f7ab52f6eb315d519d801a979a73" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.7</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 29             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_b939f3a76582b075bdba2196d4c069f5.setContent(html_2406f7ab52f6eb315d519d801a979a73);
+            
+        
+
+        circle_da5a59764fe8815598c462d1b3184de5.bindPopup(popup_b939f3a76582b075bdba2196d4c069f5)
+        ;
+
+        
+    
+    
+            var circle_ba2ac5336dd4e6dd184a9ae5e3575004 = L.circle(
+                [45.01507, -93.28903],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1f8fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_314bea3d2785488e6dd49d3b2d414ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49aa8dd4344d75afe15252ae18335c31 = $(`<div id="html_49aa8dd4344d75afe15252ae18335c31" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f1f8fb;border-top: 25px solid #f1f8fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">4.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 11             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_314bea3d2785488e6dd49d3b2d414ca7.setContent(html_49aa8dd4344d75afe15252ae18335c31);
+            
+        
+
+        circle_ba2ac5336dd4e6dd184a9ae5e3575004.bindPopup(popup_314bea3d2785488e6dd49d3b2d414ca7)
+        ;
+
+        
+    
+    
+            var circle_4b32390da5704803a77ebc77174897bc = L.circle(
+                [44.935925, -93.2779],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_15d7c6255b65d60c9a14d3d9e88481ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf9d900d8a4214f909102c758f01b045 = $(`<div id="html_bf9d900d8a4214f909102c758f01b045" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fc;border-top: 25px solid #f3f9fc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">3.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 1             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_15d7c6255b65d60c9a14d3d9e88481ff.setContent(html_bf9d900d8a4214f909102c758f01b045);
+            
+        
+
+        circle_4b32390da5704803a77ebc77174897bc.bindPopup(popup_15d7c6255b65d60c9a14d3d9e88481ff)
+        ;
+
+        
+    
+    
+            var circle_b478b9dad9e1d5e786813f4a909beed6 = L.circle(
+                [44.93786, -93.214035],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fbfc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_3c43df196b2b0754349ccbcdc95103bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d0139f8f3aab14673b24bb81d14a764 = $(`<div id="html_5d0139f8f3aab14673b24bb81d14a764" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f6fbfc;border-top: 25px solid #f6fbfc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.6</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 39             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_3c43df196b2b0754349ccbcdc95103bf.setContent(html_5d0139f8f3aab14673b24bb81d14a764);
+            
+        
+
+        circle_b478b9dad9e1d5e786813f4a909beed6.bindPopup(popup_3c43df196b2b0754349ccbcdc95103bf)
+        ;
+
+        
+    
+    
+            var circle_373700293c6eaa6b9b73739fc2d1b1e3 = L.circle(
+                [44.921528, -93.32784],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f2f8fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_ded7621925747d80b4de87d264f345d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac3a3c68f00901f827529a1d5ce00d5e = $(`<div id="html_ac3a3c68f00901f827529a1d5ce00d5e" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f2f8fb;border-top: 25px solid #f2f8fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">4.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 27             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_ded7621925747d80b4de87d264f345d5.setContent(html_ac3a3c68f00901f827529a1d5ce00d5e);
+            
+        
+
+        circle_373700293c6eaa6b9b73739fc2d1b1e3.bindPopup(popup_ded7621925747d80b4de87d264f345d5)
+        ;
+
+        
+    
+    
+            var circle_3000ac1f8a24304cfde064a35486ce30 = L.circle(
+                [44.96826, -93.21156],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_ea65ec668345851a9f13d0006d7df82f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c2c7d2726bb98ec90d937f4086434f2 = $(`<div id="html_1c2c7d2726bb98ec90d937f4086434f2" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 33             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_ea65ec668345851a9f13d0006d7df82f.setContent(html_1c2c7d2726bb98ec90d937f4086434f2);
+            
+        
+
+        circle_3000ac1f8a24304cfde064a35486ce30.bindPopup(popup_ea65ec668345851a9f13d0006d7df82f)
+        ;
+
+        
+    
+    
+            var circle_6987ad443bd3ee3deb71cd860d43c578 = L.circle(
+                [44.901524, -93.276825],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fbfd", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_003e32e913dec40dfca2ddbee9acaacf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e46338791d37ee36b5609cbb737edf = $(`<div id="html_68e46338791d37ee36b5609cbb737edf" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f6fbfd;border-top: 25px solid #f6fbfd;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">0.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 20             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_003e32e913dec40dfca2ddbee9acaacf.setContent(html_68e46338791d37ee36b5609cbb737edf);
+            
+        
+
+        circle_6987ad443bd3ee3deb71cd860d43c578.bindPopup(popup_003e32e913dec40dfca2ddbee9acaacf)
+        ;
+
+        
+    
+    
+            var circle_4625d8dd9037f464053ea4133492e5c6 = L.circle(
+                [44.996323, -93.29719],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_42f036b0dd9cb389232b984883c78a70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_263a38b438eb60c1c91f8846e29149cc = $(`<div id="html_263a38b438eb60c1c91f8846e29149cc" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fb;border-top: 25px solid #f3f9fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">4.0</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 49             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_42f036b0dd9cb389232b984883c78a70.setContent(html_263a38b438eb60c1c91f8846e29149cc);
+            
+        
+
+        circle_4625d8dd9037f464053ea4133492e5c6.bindPopup(popup_42f036b0dd9cb389232b984883c78a70)
+        ;
+
+        
+    
+    
+            var circle_ba352eb3a5857a8dac25d2c80c00351a = L.circle(
+                [44.928658, -93.26884],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_9f52e9ae54593a86ef51c9f77d783ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de72c1ac8ec3b7ab41f67d355ec2874b = $(`<div id="html_de72c1ac8ec3b7ab41f67d355ec2874b" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.3</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 80             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_9f52e9ae54593a86ef51c9f77d783ff9.setContent(html_de72c1ac8ec3b7ab41f67d355ec2874b);
+            
+        
+
+        circle_ba352eb3a5857a8dac25d2c80c00351a.bindPopup(popup_9f52e9ae54593a86ef51c9f77d783ff9)
+        ;
+
+        
+    
+    
+            var circle_0f7dba011a99047e2dd99c9ad693d640 = L.circle(
+                [44.930527, -93.25872],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cfdfed", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_f9f8d23d40a20c606bd0239bef84c0c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4f990333e7d5b089cd5e4f90d6fe6d6 = $(`<div id="html_e4f990333e7d5b089cd5e4f90d6fe6d6" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #cfdfed;border-top: 25px solid #cfdfed;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;moderate<br></h6>             <b style="font-size: 20px;">28.4</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 61             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_f9f8d23d40a20c606bd0239bef84c0c6.setContent(html_e4f990333e7d5b089cd5e4f90d6fe6d6);
+            
+        
+
+        circle_0f7dba011a99047e2dd99c9ad693d640.bindPopup(popup_f9f8d23d40a20c606bd0239bef84c0c6)
+        ;
+
+        
+    
+    
+            var circle_20ac4b506ccff69fd566dbc7a88fa99d = L.circle(
+                [44.901764, -93.2089],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e3eef5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_e0f7bdbc77ac5153e6c45abd050fde9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97f43fe052b566134422013a1fd40037 = $(`<div id="html_97f43fe052b566134422013a1fd40037" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #e3eef5;border-top: 25px solid #e3eef5;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;moderate<br></h6>             <b style="font-size: 20px;">16.6</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 9             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_e0f7bdbc77ac5153e6c45abd050fde9a.setContent(html_97f43fe052b566134422013a1fd40037);
+            
+        
+
+        circle_20ac4b506ccff69fd566dbc7a88fa99d.bindPopup(popup_e0f7bdbc77ac5153e6c45abd050fde9a)
+        ;
+
+        
+    
+    
+            var circle_0ba2e6d89903d2bbbc263ea5c0323c16 = L.circle(
+                [44.94475, -93.23892],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_68ac93f2eaa2e39805b698a89788200f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa1dc12f68a8e24b763cbfb387da12e7 = $(`<div id="html_fa1dc12f68a8e24b763cbfb387da12e7" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fb;border-top: 25px solid #f3f9fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">3.6</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 2             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_68ac93f2eaa2e39805b698a89788200f.setContent(html_fa1dc12f68a8e24b763cbfb387da12e7);
+            
+        
+
+        circle_0ba2e6d89903d2bbbc263ea5c0323c16.bindPopup(popup_68ac93f2eaa2e39805b698a89788200f)
+        ;
+
+        
+    
+    
+            var circle_9b2b2d06482ac7b3e9ee74cbdb3ac6d6 = L.circle(
+                [44.91171, -93.227066],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_53bfe2e8aa46ce0b3f313673f9a11687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7934e2ae6abac0f4693d5174dbc4cb0d = $(`<div id="html_7934e2ae6abac0f4693d5174dbc4cb0d" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 15             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_53bfe2e8aa46ce0b3f313673f9a11687.setContent(html_7934e2ae6abac0f4693d5174dbc4cb0d);
+            
+        
+
+        circle_9b2b2d06482ac7b3e9ee74cbdb3ac6d6.bindPopup(popup_53bfe2e8aa46ce0b3f313673f9a11687)
+        ;
+
+        
+    
+    
+            var circle_b3242a22dd273096d676a098379b9fcf = L.circle(
+                [45.008877, -93.249146],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_0abfd8b7fce2589693c2da84578c5398 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40ee0cd79a505a738f7ce6f50db50d8f = $(`<div id="html_40ee0cd79a505a738f7ce6f50db50d8f" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 10             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_0abfd8b7fce2589693c2da84578c5398.setContent(html_40ee0cd79a505a738f7ce6f50db50d8f);
+            
+        
+
+        circle_b3242a22dd273096d676a098379b9fcf.bindPopup(popup_0abfd8b7fce2589693c2da84578c5398)
+        ;
+
+        
+    
+    
+            var circle_aa8f2994a415915462f098e5bc35e560 = L.circle(
+                [44.953743, -93.286804],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_bdf494700b6f6437e775c7efae19e74e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c9e51f92cf5ea92c9061e04f0b34ca6 = $(`<div id="html_5c9e51f92cf5ea92c9061e04f0b34ca6" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.7</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 65             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_bdf494700b6f6437e775c7efae19e74e.setContent(html_5c9e51f92cf5ea92c9061e04f0b34ca6);
+            
+        
+
+        circle_aa8f2994a415915462f098e5bc35e560.bindPopup(popup_bdf494700b6f6437e775c7efae19e74e)
+        ;
+
+        
+    
+    
+            var circle_53f7635a26e797de571a9aa41b7a9632 = L.circle(
+                [44.953747, -93.252464],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_9a92bf2be59500cc5800b6fc230210a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70fe5d22d4a40c52365fd2fa2e8fad8b = $(`<div id="html_70fe5d22d4a40c52365fd2fa2e8fad8b" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fc;border-top: 25px solid #f3f9fc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">3.0</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 77             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_9a92bf2be59500cc5800b6fc230210a0.setContent(html_70fe5d22d4a40c52365fd2fa2e8fad8b);
+            
+        
+
+        circle_53f7635a26e797de571a9aa41b7a9632.bindPopup(popup_9a92bf2be59500cc5800b6fc230210a0)
+        ;
+
+        
+    
+    
+            var circle_6b79d34ac6e25ca234ef963aa45aaeb8 = L.circle(
+                [44.95001, -93.24743],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_8187376851ed06a06b838014e881ef20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b25b1990ab2d24014e09575b071ac26 = $(`<div id="html_4b25b1990ab2d24014e09575b071ac26" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.3</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 76             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_8187376851ed06a06b838014e881ef20.setContent(html_4b25b1990ab2d24014e09575b071ac26);
+            
+        
+
+        circle_6b79d34ac6e25ca234ef963aa45aaeb8.bindPopup(popup_8187376851ed06a06b838014e881ef20)
+        ;
+
+        
+    
+    
+            var circle_df022a9d650e5d7b016052d0f0d200f0 = L.circle(
+                [44.962765, -93.23776],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_d4ec25cb0d8783c235a3c3fd8bf779f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27ee3938319f94b2f3b589ce8165c7db = $(`<div id="html_27ee3938319f94b2f3b589ce8165c7db" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.3</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 26             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_d4ec25cb0d8783c235a3c3fd8bf779f4.setContent(html_27ee3938319f94b2f3b589ce8165c7db);
+            
+        
+
+        circle_df022a9d650e5d7b016052d0f0d200f0.bindPopup(popup_d4ec25cb0d8783c235a3c3fd8bf779f4)
+        ;
+
+        
+    
+    
+            var circle_f6d79a77968d2c9c83b585d26d008c8a = L.circle(
+                [45.0403, -93.288895],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_1f08d4127af272c5ccd66bbf9a1e9d06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a42965a0b12337dd83958f7270935941 = $(`<div id="html_a42965a0b12337dd83958f7270935941" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.7</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 72             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_1f08d4127af272c5ccd66bbf9a1e9d06.setContent(html_a42965a0b12337dd83958f7270935941);
+            
+        
+
+        circle_f6d79a77968d2c9c83b585d26d008c8a.bindPopup(popup_1f08d4127af272c5ccd66bbf9a1e9d06)
+        ;
+
+        
+    
+    
+            var circle_5bae8b7fe99c99f82c99d0bc0b8dde78 = L.circle(
+                [44.95375, -93.24866],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_251dbefc141035a23b29646aae029e37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95c402dc2499f2dee63131bf5b5b30ff = $(`<div id="html_95c402dc2499f2dee63131bf5b5b30ff" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 78             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_251dbefc141035a23b29646aae029e37.setContent(html_95c402dc2499f2dee63131bf5b5b30ff);
+            
+        
+
+        circle_5bae8b7fe99c99f82c99d0bc0b8dde78.bindPopup(popup_251dbefc141035a23b29646aae029e37)
+        ;
+
+        
+    
+    
+            var circle_1f1c846d6afac726310d5c5dc2da8c91 = L.circle(
+                [44.896263, -93.26778],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_772e43a4030b3aa0680cf1ab0c7da700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9093d77a6ace1be551faa580438ab15d = $(`<div id="html_9093d77a6ace1be551faa580438ab15d" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fb;border-top: 25px solid #f3f9fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">3.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 79             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_772e43a4030b3aa0680cf1ab0c7da700.setContent(html_9093d77a6ace1be551faa580438ab15d);
+            
+        
+
+        circle_1f1c846d6afac726310d5c5dc2da8c91.bindPopup(popup_772e43a4030b3aa0680cf1ab0c7da700)
+        ;
+
+        
+    
+    
+            var circle_d3258de71ac9f47aad30bb8cc02c1380 = L.circle(
+                [44.90534, -93.232285],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_fb8ea6e9f99dc7738a3482e1352a3457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10ce42944c85e4561e81b4539c2abbce = $(`<div id="html_10ce42944c85e4561e81b4539c2abbce" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 8             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_fb8ea6e9f99dc7738a3482e1352a3457.setContent(html_10ce42944c85e4561e81b4539c2abbce);
+            
+        
+
+        circle_d3258de71ac9f47aad30bb8cc02c1380.bindPopup(popup_fb8ea6e9f99dc7738a3482e1352a3457)
+        ;
+
+        
+    
+    
+            var circle_a6aeb127d3d3fff2bddc8e1248efee86 = L.circle(
+                [44.97844, -93.263535],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_beb51a50aa77e4072f1703f1fe80651f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3503edb24f33c0d3066805be8c06dbbd = $(`<div id="html_3503edb24f33c0d3066805be8c06dbbd" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 14             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_beb51a50aa77e4072f1703f1fe80651f.setContent(html_3503edb24f33c0d3066805be8c06dbbd);
+            
+        
+
+        circle_a6aeb127d3d3fff2bddc8e1248efee86.bindPopup(popup_beb51a50aa77e4072f1703f1fe80651f)
+        ;
+
+        
+    
+    
+            var circle_321fd48ceaab6f84c8dfcfaaffa9a8c7 = L.circle(
+                [44.90896, -93.23099],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fbfc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_44d423cf2cdc494b7ed342de485f21b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f32132b140b115fe6eaa0b0e7b1417 = $(`<div id="html_70f32132b140b115fe6eaa0b0e7b1417" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f6fbfc;border-top: 25px solid #f6fbfc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.6</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 7             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_44d423cf2cdc494b7ed342de485f21b6.setContent(html_70f32132b140b115fe6eaa0b0e7b1417);
+            
+        
+
+        circle_321fd48ceaab6f84c8dfcfaaffa9a8c7.bindPopup(popup_44d423cf2cdc494b7ed342de485f21b6)
+        ;
+
+        
+    
+    
+            var circle_eb4ddae46fa7baaa8fe3d3c0344dc14c = L.circle(
+                [44.932285, -93.28308],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_73c681fcd38e672c2098ae5d17b689d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caa2b854698b17788dde2c4913e73cb9 = $(`<div id="html_caa2b854698b17788dde2c4913e73cb9" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 38             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_73c681fcd38e672c2098ae5d17b689d2.setContent(html_caa2b854698b17788dde2c4913e73cb9);
+            
+        
+
+        circle_eb4ddae46fa7baaa8fe3d3c0344dc14c.bindPopup(popup_73c681fcd38e672c2098ae5d17b689d2)
+        ;
+
+        
+    
+    
+            var circle_05ea78884b2e03ce449559da425647ae = L.circle(
+                [44.916107, -93.25623],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_44616b073d8b72390241717e74ca6d54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6b90f3913f46aa3a640d066ea07691d = $(`<div id="html_d6b90f3913f46aa3a640d066ea07691d" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 63             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_44616b073d8b72390241717e74ca6d54.setContent(html_d6b90f3913f46aa3a640d066ea07691d);
+            
+        
+
+        circle_05ea78884b2e03ce449559da425647ae.bindPopup(popup_44616b073d8b72390241717e74ca6d54)
+        ;
+
+        
+    
+    
+            var circle_99ee0c06517541e2c8a716171a836171 = L.circle(
+                [44.967304, -93.21772],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fbfc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_46c5736c66025c543685a9cb3cd747e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f2c1302c5553fc67853022528a1cf4 = $(`<div id="html_84f2c1302c5553fc67853022528a1cf4" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f6fbfc;border-top: 25px solid #f6fbfc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.5</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 32             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_46c5736c66025c543685a9cb3cd747e4.setContent(html_84f2c1302c5553fc67853022528a1cf4);
+            
+        
+
+        circle_99ee0c06517541e2c8a716171a836171.bindPopup(popup_46c5736c66025c543685a9cb3cd747e4)
+        ;
+
+        
+    
+    
+            var circle_b01fdaaa089c33c9b503d3a4e369d067 = L.circle(
+                [44.930527, -93.32394],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fbfc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_76748ccc6b2dc91b043ab82146f7d9cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afce6f67de839cfb8b273f03d6ffc5e9 = $(`<div id="html_afce6f67de839cfb8b273f03d6ffc5e9" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f6fbfc;border-top: 25px solid #f6fbfc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 62             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_76748ccc6b2dc91b043ab82146f7d9cf.setContent(html_afce6f67de839cfb8b273f03d6ffc5e9);
+            
+        
+
+        circle_b01fdaaa089c33c9b503d3a4e369d067.bindPopup(popup_76748ccc6b2dc91b043ab82146f7d9cf)
+        ;
+
+        
+    
+    
+            var circle_aa644e838bb9549660039e5d041bd74a = L.circle(
+                [44.98081, -93.30325],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eef6fa", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_08acd674ea459278122fd4d3f2fd97ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73a315668beb731ff9e88bb341d68011 = $(`<div id="html_73a315668beb731ff9e88bb341d68011" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #eef6fa;border-top: 25px solid #eef6fa;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">7.4</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 41             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_08acd674ea459278122fd4d3f2fd97ac.setContent(html_73a315668beb731ff9e88bb341d68011);
+            
+        
+
+        circle_aa644e838bb9549660039e5d041bd74a.bindPopup(popup_08acd674ea459278122fd4d3f2fd97ac)
+        ;
+
+        
+    
+    
+            var circle_4b334711b199b3dc0f43f4842d9baf15 = L.circle(
+                [45.013653, -93.2346],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_1d32294db0aee66a2aed07fa2c3daa2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34907f59c52d247afeef42c79cff43a3 = $(`<div id="html_34907f59c52d247afeef42c79cff43a3" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.6</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 60             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_1d32294db0aee66a2aed07fa2c3daa2b.setContent(html_34907f59c52d247afeef42c79cff43a3);
+            
+        
+
+        circle_4b334711b199b3dc0f43f4842d9baf15.bindPopup(popup_1d32294db0aee66a2aed07fa2c3daa2b)
+        ;
+
+        
+    
+    
+            var circle_e3a2894c416baca8305dbe580efe4581 = L.circle(
+                [45.023975, -93.29437],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_7d6ba333620b4b1414cca239478e8ca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db42a654ac60d31cb7112e30d9db8a2a = $(`<div id="html_db42a654ac60d31cb7112e30d9db8a2a" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fc;border-top: 25px solid #f3f9fc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">3.3</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 70             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_7d6ba333620b4b1414cca239478e8ca9.setContent(html_db42a654ac60d31cb7112e30d9db8a2a);
+            
+        
+
+        circle_e3a2894c416baca8305dbe580efe4581.bindPopup(popup_7d6ba333620b4b1414cca239478e8ca9)
+        ;
+
+        
+    
+    
+            var circle_2c12eed3b7d3af0906129d8e7328b3b3 = L.circle(
+                [44.972713, -93.28224],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_5790fdb0daf36321e280e76d582bfd73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efa1b7de2f8112e70927026226a2834a = $(`<div id="html_efa1b7de2f8112e70927026226a2834a" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.4</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 17             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_5790fdb0daf36321e280e76d582bfd73.setContent(html_efa1b7de2f8112e70927026226a2834a);
+            
+        
+
+        circle_2c12eed3b7d3af0906129d8e7328b3b3.bindPopup(popup_5790fdb0daf36321e280e76d582bfd73)
+        ;
+
+        
+    
+    
+            var circle_a6a8bf7f141a4fab40330ac06a99e2e8 = L.circle(
+                [45.009544, -93.29431],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1f8fb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_39cc8d897e398ac35e70533951300f23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f90263cc9073ad069914727ca72ac673 = $(`<div id="html_f90263cc9073ad069914727ca72ac673" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f1f8fb;border-top: 25px solid #f1f8fb;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">5.0</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 36             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_39cc8d897e398ac35e70533951300f23.setContent(html_f90263cc9073ad069914727ca72ac673);
+            
+        
+
+        circle_a6a8bf7f141a4fab40330ac06a99e2e8.bindPopup(popup_39cc8d897e398ac35e70533951300f23)
+        ;
+
+        
+    
+    
+            var circle_7f156758e91d703d4a39b75390d8019d = L.circle(
+                [45.029537, -93.29194],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3f9fc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_dc7cd74136f1f6818a710cd39263e85e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a50acb05dbd9cf5167ab9e48ca25fa3 = $(`<div id="html_2a50acb05dbd9cf5167ab9e48ca25fa3" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f3f9fc;border-top: 25px solid #f3f9fc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">3.1</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 34             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_dc7cd74136f1f6818a710cd39263e85e.setContent(html_2a50acb05dbd9cf5167ab9e48ca25fa3);
+            
+        
+
+        circle_7f156758e91d703d4a39b75390d8019d.bindPopup(popup_dc7cd74136f1f6818a710cd39263e85e)
+        ;
+
+        
+    
+    
+            var circle_0b8fb5be8fcb11270e002ecaff812a42 = L.circle(
+                [44.96758, -93.3164],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_0f06385d27c206048db0cf7255e749d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cddb303a528564edc759b41ff5f12ecb = $(`<div id="html_cddb303a528564edc759b41ff5f12ecb" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">1.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 25             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_0f06385d27c206048db0cf7255e749d7.setContent(html_cddb303a528564edc759b41ff5f12ecb);
+            
+        
+
+        circle_0b8fb5be8fcb11270e002ecaff812a42.bindPopup(popup_0f06385d27c206048db0cf7255e749d7)
+        ;
+
+        
+    
+    
+            var circle_b7f42f650287ddb69ba9ae47850f637c = L.circle(
+                [44.97941, -93.302444],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_f2811295cfd6430692e37dcfd3555828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e98a944213c112785a78eaf0a3036ddf = $(`<div id="html_e98a944213c112785a78eaf0a3036ddf" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.7</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 74             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_f2811295cfd6430692e37dcfd3555828.setContent(html_e98a944213c112785a78eaf0a3036ddf);
+            
+        
+
+        circle_b7f42f650287ddb69ba9ae47850f637c.bindPopup(popup_f2811295cfd6430692e37dcfd3555828)
+        ;
+
+        
+    
+    
+            var circle_f6feea1604c1aaa31f7552a3351b3cf6 = L.circle(
+                [44.998505, -93.24864],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_e12fb5770b5d163b24d7c3ac21524b03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31564c0c44c658503a200d71f16c5229 = $(`<div id="html_31564c0c44c658503a200d71f16c5229" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.0</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 56             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_e12fb5770b5d163b24d7c3ac21524b03.setContent(html_31564c0c44c658503a200d71f16c5229);
+            
+        
+
+        circle_f6feea1604c1aaa31f7552a3351b3cf6.bindPopup(popup_e12fb5770b5d163b24d7c3ac21524b03)
+        ;
+
+        
+    
+    
+            var circle_f6f1a017c10523bf360f4211485a1653 = L.circle(
+                [44.960915, -93.26111],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_1e75926e1f69a3b0293998d815347062 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12b5818c1b8fc2fca44f6e2375669adc = $(`<div id="html_12b5818c1b8fc2fca44f6e2375669adc" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f4fafc;border-top: 25px solid #f4fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.8</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 43             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_1e75926e1f69a3b0293998d815347062.setContent(html_12b5818c1b8fc2fca44f6e2375669adc);
+            
+        
+
+        circle_f6f1a017c10523bf360f4211485a1653.bindPopup(popup_1e75926e1f69a3b0293998d815347062)
+        ;
+
+        
+    
+    
+            var circle_448feb3a482641a51c6fc42359863b55 = L.circle(
+                [44.90432, -93.280624],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f5fafc", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_34d7b518050fc291f98e120c5655663a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e01555bdb890c27fb4c11bc2113c5dd1 = $(`<div id="html_e01555bdb890c27fb4c11bc2113c5dd1" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #f5fafc;border-top: 25px solid #f5fafc;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;good<br></h6>             <b style="font-size: 20px;">2.2</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>                  <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 19             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_34d7b518050fc291f98e120c5655663a.setContent(html_e01555bdb890c27fb4c11bc2113c5dd1);
+            
+        
+
+        circle_448feb3a482641a51c6fc42359863b55.bindPopup(popup_34d7b518050fc291f98e120c5655663a)
+        ;
+
+        
+    
+    
+            var circle_8868f8b7df87a30dfbf6487a9fa196be = L.circle(
+                [44.934128, -93.27013],
+                {"bubblingMouseEvents": true, "color": "#8c0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#88409c", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 1.2}
+            ).addTo(feature_group_53fd9b4330a149dcc178f3313ed5022a);
+        
+    
+        var popup_2bf6dfae8e64ee1a8700200fe8f800fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75a113ebe0d8fe9a5208d432dbeeb067 = $(`<div id="html_75a113ebe0d8fe9a5208d432dbeeb067" style="width: 100.0%; height: 100.0%;"> <div class="card col " style="font-size:9px;border-radius:0px;border: 5px solid #88409c;border-top: 25px solid #88409c;">     <div class="card-body">         <center>             <h6 style="font-size: 16px;">&nbsp;unhealthy<br></h6>             <b style="font-size: 20px;">113.3</b>             <br>             <a style="font-size:8;">ug/m^3 of PM2.5</a>             <br><br>             Last Seen: 06:11PM 03/10/2024             <br><br>         </center>             <details style="font-size: 9px;">                     <summary><center><h7><u>Click for Alert Info</u></h7></center>                     </summary>                                      <br>                 <u>Sensitive Groups</u><br>                 Duration: 42 Min<br>                 Max Reading: 113.3<br>                 Avg Reading: 77.8                 <br>                 <u>For All</u><br>                 Duration: 32 Min<br>                 Max Reading: 113.3<br>                 Avg Reading: 99.5</details>     <hr style="height:2px;border-width:0;color:gray;background-color:gray">          <div style='display:flex;justify-content:space-between'">         <br>             <details style="font-size: 9px;">                 <summary><u>Name</u>                 </summary>                     City of Minneapolis Community Air Monitoring Project 81             </details>&nbsp;             <details style="font-size: 9px;">                 <summary><u>Source</u>                 </summary>                     <a href="https://www2.purpleair.com/pages/attribution" target="_blank">PurpleAir</a>              </details>         </div>     </div> </div> </div>`)[0];
+                popup_2bf6dfae8e64ee1a8700200fe8f800fb.setContent(html_75a113ebe0d8fe9a5208d432dbeeb067);
+            
+        
+
+        circle_8868f8b7df87a30dfbf6487a9fa196be.bindPopup(popup_2bf6dfae8e64ee1a8700200fe8f800fb)
+        ;
+
+        
+    
+    
+            feature_group_53fd9b4330a149dcc178f3313ed5022a.addTo(map_ac085c73f852ae23dc8687f0d55df1a6);
+        
+    
+            var layer_control_22fee234b2e45da1269fd361667e76e1_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_1c11d0c23ac401fbd095c278097fbdd5,
+                },
+                overlays :  {
+                    "Extent" : feature_group_6d3e9c67b7830c06e7741a83816290e9,
+                    "PM2.5 Sensors (PurpleAir)" : feature_group_53fd9b4330a149dcc178f3313ed5022a,
+                },
+            };
+            let layer_control_22fee234b2e45da1269fd361667e76e1 = L.control.layers(
+                layer_control_22fee234b2e45da1269fd361667e76e1_layers.base_layers,
+                layer_control_22fee234b2e45da1269fd361667e76e1_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_ac085c73f852ae23dc8687f0d55df1a6);
+
+        
+</script>
+</html>
