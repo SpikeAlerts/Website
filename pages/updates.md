@@ -17,6 +17,7 @@ A new sign-up form should be finished today and sent out to a focus group. Trial
 
 <center>
 <h4> <b>Realtime Webmap Snapshot</b> </h4>
+<a href="https://spikealerts.github.io/Website/figs/example_webmap">Full Page View</a>
     <br><br>
     <div class="content">
             <embed type="text/html" src="../figs/example_webmap.html" width="500" height="700"/>
