@@ -8,7 +8,7 @@ description: This is the SpikeAlerts Website
 
 <img src="./figs/ExampleHazardIndex.png" alt="Example pm2.5 Hazard Index" class="responsive" width=450/> <!--width=500-->
 
-<div class="button"><a href="redcap.ahc.umn.edu/surveys/?s=YNHFFJRRADMT7HLD"><button> Sign Up Here</button></a> &nbsp;
+<div class="button"><a href="https://redcap.ahc.umn.edu/redcap/surveys/?s=NH7JNNNR8LNCT8CN"><button> Sign Up Here</button></a> &nbsp;
  <a href="https://app.smartsheet.com/b/form/45e0e547ab9046d3aecbdfd9f73498a7"><button> Report to Minneapolis </button></a>&nbsp;
   <a href="https://netweb.pca.state.mn.us/private/CitizenComplaints.aspx?RequestedPage=ComplaintForm&task=ComplaintEntryTask"><button> Report to MPCA </button></a>
 </div>
