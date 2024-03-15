@@ -7,6 +7,14 @@ title: Updates
 
 We will aim to update this weekly on Wednesdays!
 
+## 3-15-2024
+
+SpikeAlerts2.0 (v2) has been running most of this week without a hitch! 
+
+We've messaged folks from Version 1.0 (v1) that we'll quietly shut down that service Sunday night and included the [sign-up form](https://redcap.ahc.umn.edu/redcap/surveys/?s=NH7JNNNR8LNCT8CN) for Version 2.0. On Monday, we'll delete all user data from v1, archive the alerts, and import new users into v2.
+
+Also, the Minneapolis-specific website is up! We're just working on content and formatting the pages. Super excited to have a [realtime webmap](https://www.mplsaqalert.com/map/) now!
+
 ## 3-8-2024
 
 It's been an exciting week! 
@@ -17,7 +25,7 @@ A new sign-up form should be finished today and sent out to a focus group. Trial
 
 <center>
 <h4> <b>Realtime Webmap Snapshot</b> </h4>
-<a href="https://spikealerts.github.io/Website/figs/example_webmap">Full Page View</a>
+<a href="../figs/example_webmap.html">Full Page View</a>
     <br><br>
     <div class="content">
             <embed type="text/html" src="../figs/example_webmap.html" width="500" height="700"/>
