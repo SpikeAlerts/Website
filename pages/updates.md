@@ -5,7 +5,13 @@ title: Updates
 
 # Updates
 
-We will aim to update this weekly on Wednesdays!
+We will aim to update this weekly on Mondays!
+
+## 3-22-2024
+
+More in-depth update coming on Monday - been taking a little breather here.
+
+We've had really good air quality this week so no alerts have been sent, yet. The first 10 sign-ups were added to the system this past Monday and everything appears to be running smooth! Writing the first report for version 2.0 and adding more folks this upcoming Monday.
 
 ## 3-15-2024
 
