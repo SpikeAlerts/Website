@@ -2,10 +2,12 @@
 layout: page
 title: FAQs
 ---
-
-## Check [**here**](./updates) for regular updates! 
 <h1> <small><small><small><i>(Click to Expand an answer)</i></small></small></small></h1>
 <!-- For Collapible cell formatting - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details -->
+
+---
+# [**Regular Updates**](./updates)
+---
 
 <h1><b>Definitions</b></h1>
 
@@ -18,7 +20,7 @@ This is tough to define, and we hope to get a better idea with your help!
 
 <br><br>
 
-Currently, we are sending out alerts when a <a href="https://www2.purpleair.com/">PurpleAir</a> sensor reads 10-minute average Particulate Matter 2.5 (PM2.5) levels over the <a href="https://www.epa.gov/pm-pollution/national-ambient-air-quality-standards-naaqs-pm" target="_blank">24-hour National Ambient Air Quality Standard</a> (NAAQS) within 1 kilometer of your designated location of interest.
+Currently, we are sending out alerts when a <a href="https://www2.purpleair.com/">PurpleAir</a> sensor reads 10-minute average Particulate Matter 2.5 (PM2.5) levels over the <a href="https://vlab.noaa.gov/web/osti-modeling/air-quality/faqs#aqitable" target="_blank">24-hour National Ambient Air Quality Standard</a> (NAAQS) within 800 meters of your designated place of interest.
 
 
 <hr>
@@ -83,7 +85,13 @@ Definitely <a href="./contact">contact us</a> if you think there's been a mistak
 <summary><h2>No alerts?</h2>
 </summary>
 
-Most people should get an alert within a week or so. There is a chance that there are no air monitors in your area!
+Most folks get an alert within a week or so. There is a chance that there are no air monitors in your area!
+
+<br><br>
+
+<center>
+<b> <a href="https://www.mplsaqalert.com/map/coverage">Current SpikeAlerts Coverage</a></b>
+</center>
 
 <br><br>
 
@@ -91,14 +99,7 @@ If you or someone you know would be interested in hosting a sensor you can reque
 
 <br><br>
 
-In the meantime, we'll work on letting you know about city-wide air quality events.
-
-<br><br>
-
-<center>
-<h2>Current SpikeAlerts Coverage</h2>
-<img src="../figs/SpikeAlerts_Coverage.png" alt="SpikeAlerts_Coverage.png" class="responsive" width = 400/>
-</center>
+In the meantime, we're working on city-wide air quality alerts.
 
 <hr>
 
@@ -110,30 +111,18 @@ In the meantime, we'll work on letting you know about city-wide air quality even
 
 <!-- Example Question -->
 <details>
-<summary><h2>What happens to my report?</h2>
+<summary><h2>What happens to a report?</h2>
 </summary>
 
-You can opt-in to report to a community organization, Minneapolis Health Department (MHD), the Minnesota Pollution Control Agency (MPCA), and/or submit your comment anonymously as a community scientist for air quality research!
+We're still thinking this through...
 
-<br><br> 
+Currently, folks get the option to report through a text message and/or the [webmap](https://www.mplsaqalert.com/map/). These are anonymous. We'll forward them weekly to relevant community organizations, researchers, the Minneapolis Health Department (MHD), and the Minnesota Pollution Control Agency (MPCA). 
 
-We will not share your report information with any org or government agency without your consent.
+Would it be cool to have them appear on a map as well? Would love feedback/ideas!
 
 <br><br>
 
 Reports are stored in a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764586/" target="_blank">REDCap</a> database hosted by the University of Minnesota.
-
-<hr>
-
-</details>
-
-<!-- Example Question -->
-
-<details>
-<summary><h2>Are reports anonymous?</h2>
-</summary>
-
-The app's database intentionally "unrelates" user information when archiving reports. Time of event and nearby sensors are recorded but not the user's location/phone number.
 
 <hr>
 
@@ -147,7 +136,7 @@ Phone numbers are stored in a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles
 
 <br><br>
 
-Our current SMS service is <a href="https://www.twilio.com/en-us/legal/privacy#data-about-our-customers-end-users" target="_blank">Twilio</a> which keeps a log of messages and phone numbers. We plan to delete these on a rolling basis.
+Our current SMS service is <a href="https://www.twilio.com/en-us/legal/privacy#data-about-our-customers-end-users" target="_blank">Twilio</a> which keeps a log of messages and phone numbers. We delete these on a weekly basis.
 
 <hr>
 
