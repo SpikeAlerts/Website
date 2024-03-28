@@ -5,11 +5,28 @@ title: Updates
 
 # Updates
 
-We will aim to update this weekly on Mondays!
+We will aim to update this weekly!
+
+## 3-27-2024
+
+Next couple weeks we're focusing on communications, the website, and organizing. This will include: scheduling a hack-a-thon, refining a slide deck for community training sessions, documenting alert and management workflows, finalizing a report form.
+
+Here's some updates on SpikeAlerts_Mpls:
+
+* Version1.0 is shut down
+    * Alerts were archived
+    * User data has been deleted across all platforms
+* Version2.0 is in a "soft release" stage:
+    * There will be bugs...
+    * 5-10 new users are manually added Mondays, capping at 150
+    * We're committed to keep it running through this summer
+    * The dataset ([Google Drive Link](https://drive.google.com/drive/folders/1u0hirGJlINDi_Ych8aH5ocUGfqtt2SID?usp=drive_link)) has changed slightly (We think for the better! More on this soon)
+    
+**Final note:** It has come to our attention that the lower PurpleAir PM2.5 Values (<50ug/m^3) used in our current system may be slightly over-estimated (not converted into US EPA/not accounting for humidity - [more here](https://community.purpleair.com/t/is-there-a-field-that-returns-data-with-us-epa-pm2-5-conversion-formula-applied/4593)). This is going to be a priority to investigate for Version2.1
 
 ## 3-22-2024
 
-More in-depth update coming on Monday - been taking a little breather here.
+More in-depth update coming soon - been taking a little breather here.
 
 We've had really good air quality this week so no alerts have been sent, yet. The first 10 sign-ups were added to the system this past Monday and everything appears to be running smooth! Writing the first report for version 2.0 and adding more folks this upcoming Monday.
 
