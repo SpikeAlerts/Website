@@ -20,7 +20,7 @@ Here's some updates on SpikeAlerts_Mpls:
     * There will be bugs...
     * 5-10 new users are manually added Mondays - capping at 150
     * We're committed to keep it running through this summer
-    * There's a new, experimental report option on the [Realtime webmap](https://www.mplsaqalert.com/map/) and [Coverage webmap](https://www.mplsaqalert.com/map/coverage) (We're going to publish the webmap code in April)
+    * There's a new, experimental report option on the [Realtime webmap](https://www.mplsaqalert.com/map/) and [Coverage webmap](https://www.mplsaqalert.com/map/coverage) (We're going to publish the code code in April)
     * The dataset ([Google Drive Link](https://drive.google.com/drive/folders/1u0hirGJlINDi_Ych8aH5ocUGfqtt2SID?usp=drive_link)) has changed slightly (We think for the better! More on this soon)
     
 **Final note:** It has come to our attention that the lower PurpleAir PM2.5 Values (<50ug/m^3) used in our current system may be slightly over-estimated (not converted into US EPA/not accounting for humidity - [more here](https://community.purpleair.com/t/is-there-a-field-that-returns-data-with-us-epa-pm2-5-conversion-formula-applied/4593)). This is going to be a priority to investigate for Version2.1
