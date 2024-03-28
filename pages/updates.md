@@ -18,8 +18,9 @@ Here's some updates on SpikeAlerts_Mpls:
     * User data has been deleted across all platforms
 * Version2.0 is in a "soft release" stage:
     * There will be bugs...
-    * 5-10 new users are manually added Mondays, capping at 150
+    * 5-10 new users are manually added Mondays - capping at 150
     * We're committed to keep it running through this summer
+    * There's a new, experimental report option on the [Realtime webmap](https://www.mplsaqalert.com/map/) and [Coverage webmap](https://www.mplsaqalert.com/map/coverage) (We're going to publish the webmap code in April)
     * The dataset ([Google Drive Link](https://drive.google.com/drive/folders/1u0hirGJlINDi_Ych8aH5ocUGfqtt2SID?usp=drive_link)) has changed slightly (We think for the better! More on this soon)
     
 **Final note:** It has come to our attention that the lower PurpleAir PM2.5 Values (<50ug/m^3) used in our current system may be slightly over-estimated (not converted into US EPA/not accounting for humidity - [more here](https://community.purpleair.com/t/is-there-a-field-that-returns-data-with-us-epa-pm2-5-conversion-formula-applied/4593)). This is going to be a priority to investigate for Version2.1
@@ -42,18 +43,9 @@ Also, the Minneapolis-specific website is up! We're just working on content and 
 
 It's been an exciting week! 
 
-The new website is coming together complete with our own webmaps (see example below) while the "Users & Notifications" extension of SpikeAlerts has been tested. This extension was pulled into the [Minneapolis instance](https://github.com/SpikeAlerts/SpikeAlerts_Mpls) for implementing SMS Messaging and REDCap scripts. 
+The new website is coming together complete with our own webmaps (see a [snapshot](../figs/example_webmap.html)) while the "Users & Notifications" extension of SpikeAlerts has been tested. This extension was pulled into the [Minneapolis instance](https://github.com/SpikeAlerts/SpikeAlerts_Mpls) for implementing SMS Messaging and REDCap scripts. 
 
 A new sign-up form should be finished today and sent out to a focus group. Trial run to begin next week!
-
-<center>
-<h4> <b>Realtime Webmap Snapshot</b> </h4>
-<a href="../figs/example_webmap.html">Full Page View</a>
-    <br><br>
-    <div class="content">
-            <embed type="text/html" src="../figs/example_webmap.html" width="500" height="700"/>
-    </div>
-</center>
 
 ## 2-29-2024
 
