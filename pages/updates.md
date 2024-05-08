@@ -5,9 +5,15 @@ title: Updates
 
 # Updates
 
+## 5-8-2024
+
+Most of this past month has been dedicated to assisting community organizations applying for the latest [MPCA grant](https://www.pca.state.mn.us/grants-and-loans/metro-community-air-monitoring-pilot-grant-program) for community air monitoring. This is huge request for proposals that involves complex partnerships between community orgs and technical institutions. For groups unsure where to start, we recommend reaching out to [TCTAC](https://greatlakestctac.umn.edu/) and [MnTAP](http://www.mntap.umn.edu/). There's also a some helpful [webinars](https://www.epa.gov/amtic/CommunityAirMonitoringWebinars) that the EPA released to assist with this work.
+
+We've also been looking into ways that this project can be more sustainable. Recently, most of the developers have found new employment and as a result won't be able to dedicate as much time and energy to this project. More on this in the coming weeks.
+
 ## 3-27-2024
 
-Next couple weeks we're focusing on communications, the website, and organizing. This will include: scheduling a hack-a-thon, refining a slide deck for community training sessions, documenting alert and management workflows, finalizing a report form.
+Next month we're focusing on communications, the website, and organizing. This may will include: scheduling a hack-a-thon, refining a slide deck for community training sessions, documenting alert and management workflows, finalizing a report form.
 
 Here's some updates on SpikeAlerts_Mpls:
 
@@ -17,8 +23,8 @@ Here's some updates on SpikeAlerts_Mpls:
 * Version2.0 is in a "soft release" stage:
     * There will be bugs...
     * New users are manually added on Mondays
-    * We're committed to keep things running through this summer
-    * There's a new, experimental report option on the [Realtime webmap](https://www.mplsaqalert.com/map/) and [Coverage webmap](https://www.mplsaqalert.com/map/coverage) (We're going to publish the webmap code in late April)
+    * We're committed to keep things running through this summer in some capacity
+    * There's a new, experimental report option on the [Realtime webmap](https://www.mplsaqalert.com/map/) and [Coverage webmap](https://www.mplsaqalert.com/map/coverage) (We're going to publish the webmap code )
     * The dataset ([Google Drive Link](https://drive.google.com/drive/folders/1u0hirGJlINDi_Ych8aH5ocUGfqtt2SID?usp=drive_link)) has changed slightly (We think for the better! More on this soon)
     
 **Final note:** It has come to our attention that the lower PurpleAir PM2.5 Values (<50ug/m^3) used in our current system may be slightly over-estimated (not converted into US EPA/not accounting for humidity - [more here](https://community.purpleair.com/t/is-there-a-field-that-returns-data-with-us-epa-pm2-5-conversion-formula-applied/4593)). This is going to be a priority to investigate for Version2.1

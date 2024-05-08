@@ -59,6 +59,8 @@ Jenni Lansing
 
 Lucy Shapiro
 
+*The air sensors that are supplying the data for the current SpikeAlert System are owned and distributed by the Minneapolis Health Department.*
+
 ## Other Contributors 
 
 Connor Stratton, Urszula Parfieniuk, Michael Wilson, Nazir Khan, Alice Froehlich, Megan Greenberg, Mary Marek-Spartz, Kerry Wang, Daniel Furata, Eamonn Fetherston, Jake Ford
