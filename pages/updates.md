@@ -5,6 +5,10 @@ title: Updates
 
 # Updates
 
+## 9-18-2024
+
+Today we ran out of credits to pull from the PurpleAir API. SpikeAlerts is down until further notice. 
+
 ## 5-8-2024
 
 Most of this past month has been dedicated to assisting community organizations applying for the latest [MPCA grant](https://www.pca.state.mn.us/grants-and-loans/metro-community-air-monitoring-pilot-grant-program) for community air monitoring. This is huge request for proposals that involves complex partnerships between community orgs and technical institutions. For groups unsure where to start, we recommend reaching out to [TCTAC](https://greatlakestctac.umn.edu/) and [MnTAP](http://www.mntap.umn.edu/). There's also a some helpful [webinars](https://www.epa.gov/amtic/CommunityAirMonitoringWebinars) that the EPA released to assist with this work.
